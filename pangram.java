@@ -31,3 +31,15 @@ class Solution {
         return true;
     }
 }
+
+class Solution {
+    //Tc: O(n) Sc: O(1)
+    public boolean checkIfPangram(String sentence) {
+        for(int i = 0 ; i < 26; i++)
+        {
+            char cur = (char) ('a' + i);
+            if(sentence.indexOf(cur) == -1) return false;
+        }
+        return true;
+    }
+}
