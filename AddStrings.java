@@ -2,6 +2,7 @@
 
 class Solution {
     public String addStrings(String num1, String num2) {
+        //Tc: O(n)  Sc: O(1)
         int l1 = num1.length() - 1;
         int l2 = num2.length() - 1;
         int carry = 0;
